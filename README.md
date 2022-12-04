@@ -1,20 +1,20 @@
- #tinysocks5
+# tinysocks5
 A simple socks5 proxy tool written in c/c++, supports non-authenticated connection mode, and supports simple data encryption.
 just a toy, only for learning linux socket programming.
 
-##environment
+## environment
 - server:linux Ubuntu 18.04.6 LTS
 - client:windows
 
-##usage
+## usage
 ### 1. complie
-- ####server g++
+- #### server g++
 ```bash
 git clone simple-socks5
 cd tinysocks5
 make
 ```
-- ####clent vc++6.0
+- #### clent vc++6.0
 
 ### 2. command
 
