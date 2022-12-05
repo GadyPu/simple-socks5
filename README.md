@@ -28,7 +28,7 @@ Usage: pipe.exe <localport> <remotehost> <remoteport>
 ./tinysocks5 
 A simple socks5 proxy tool help you bypass firewall
 awesome c/c++ linux
-author: funy boy ^_^
+author: funny boy ^_^
 usage: ./tinysocks5 [options]
 options: 
   -a <address>         Local Address to bind (default: 0.0.0.0).
@@ -45,4 +45,4 @@ options:
 The first version only supports the sock5 protocol without a password, and only supports TCP proxy.
 
 ### protocol
-*MIT*
+[MIT](https://github.com/GadyPu/simple-socks5/blob/master/LICENSE)
