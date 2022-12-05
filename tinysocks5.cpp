@@ -22,7 +22,6 @@
 
 Cipher *cipher = nullptr;
 bool EP_ET_ON = true;
-pthread_mutex_t mutex_lock;
 Logger logger(Logger::File_And_Terminal, Logger::Info, "s5server.log");
 
 enum SocksState {
@@ -150,7 +149,6 @@ void handle_epoll_remove_fd(int epfd, event_data *&data_ptr) {
     delete data_ptr;
     data_ptr = nullptr;
 }
-
 
 int recv_data(int epfd, event_data *&data_ptr) {
     IoBuffer *&recv_buf = data_ptr->recvbuf;
@@ -330,9 +328,9 @@ static void sigign() {
 
 void usage(const char * name) {
     printf(
-        "A simple socks5 proxy tool help you bypass firewall\n"
+        "A simple socks5 proxy tool help you bypass firewall.\n"
         "awesome c/c++ linux\n"
-        "author: funy boy ^_^\n"
+        "author: funny boy ^_^\n"
         "usage: %s [options]\n"
         "options: \n"
         "  -a <address>         Local Address to bind (default: 0.0.0.0).\n"
