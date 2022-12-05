@@ -26,7 +26,7 @@ Usage: pipe.exe <localport> <remotehost> <remoteport>
 **server**
 ```bash
 ./tinysocks5 
-A simple socks5 proxy tool help you bypass firewall
+A simple socks5 proxy tool help you bypass firewall.
 awesome c/c++ linux
 author: funny boy ^_^
 usage: ./tinysocks5 [options]
